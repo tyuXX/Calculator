@@ -17,7 +17,7 @@ namespace PrimeNumFinder
         static void Main(string[] args)
         {
             List<BigInteger> bigIntegers = new List<BigInteger> {2};
-            BigInteger i = 0;
+            BigInteger i = 2;
             Thread.CurrentThread.Name = n;
             Console.Title = Thread.CurrentThread.Name;
             bool pr = false;
@@ -75,11 +75,7 @@ namespace PrimeNumFinder
                 bool c = true;
                 foreach(BigInteger s in bigIntegers)
                 {
-                    if ((i+1)>(s/2))
-                    {
-                        break;
-                    }
-                    else if(s>i)
+                    if(s>i)
                     {
                         c = false;
                         break;
