@@ -22,12 +22,13 @@ namespace PrimeNumFinder
             Console.Title = Thread.CurrentThread.Name;
             bool pr = false;
             bool wr = false;
+            bool wrp = false;
             BigInteger st = -1;
             while (true)
             {
                 Console.Clear();
                 Console.WriteLine("PNF Made by [tyuXX]");
-                Console.WriteLine("\n\nOptions:\n[1]-Print to the console\nState:" + pr + "\n\n[2]-Write to File\nState:" + wr + "\n\n[3]-Set Limit\nState:" + st);
+                Console.WriteLine("\n\nOptions:\n[1]-Print to the console\nState:" + pr + "\n\n[2]-Write to File\nState:" + wr + "\n\n[3]-Set Limit\nState:" + st + "\n\n[4]-Write afted calculated\nState:" + wrp);
                 ConsoleKey a = Console.ReadKey().Key;
                 if(a == ConsoleKey.D1)
                 {
@@ -56,6 +57,28 @@ namespace PrimeNumFinder
                     Console.Clear();
                     Console.WriteLine("Please input a valid number.\n\n");
                     try { st = BigInteger.Parse(Console.ReadLine()); } catch (Exception) { }
+                }
+                else if (a == ConsoleKey.D4)
+                {
+                    if (st>2)
+                    {
+                        if (wrp)
+                        {
+                            wrp = false;
+                        }
+                        else
+                        {
+                            wrp = true;
+                            wr = false;
+                        }
+                    }
+                    else
+                    {
+                        Console.Clear();
+                        Console.WriteLine("PNF Made by [tyuXX]");
+                        Console.WriteLine("\nPlease Set the limit to a higher number than 2.\nPress any key to continue.");
+                        Console.ReadKey();
+                    }
                 }
                 else
                 {
@@ -92,7 +115,18 @@ namespace PrimeNumFinder
                     if (wr) { File.AppendAllText(@".\primes\" + n + ".pnst", "[" + i + " T:" + t + "] , "); }
                     bigIntegers.Add(i);
                 }
-                if(i == st) { break; }
+                if(i == st) 
+                {
+                    tth.Abort();
+                    if (wrp)
+                    {
+                        foreach (BigInteger s in bigIntegers)
+                        {
+                            File.AppendAllText(@".\primes\" + n + ".pnst", "[" + s + "] , ");
+                        }
+                    }
+                    break; 
+                }
                 i++;
             }
         }
