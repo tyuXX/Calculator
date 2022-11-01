@@ -35,126 +35,150 @@ namespace ECalc
                             {
                                 case '1':
                                     {
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 1:\n");
-                                        BigInteger.TryParse(Console.ReadLine(), out n1);
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 2:\n");
-                                        BigInteger.TryParse(Console.ReadLine(), out n2);
-                                        Console.Clear();
-                                        C();
-                                        ans = n1 + n2;
-                                        Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
-                                        ans = 0;
-                                        n1 = 0;
-                                        n2 = 0;
-                                        Console.ReadKey();
+                                        try
+                                        {
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 1:\n");
+                                            BigInteger.TryParse(Console.ReadLine(), out n1);
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 2:\n");
+                                            BigInteger.TryParse(Console.ReadLine(), out n2);
+                                            Console.Clear();
+                                            C();
+                                            ans = n1 + n2;
+                                            Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
+                                            ans = 0;
+                                            n1 = 0;
+                                            n2 = 0;
+                                            Console.ReadKey();
+                                        }
+                                        catch (Exception) { }
                                         break;
                                     }
                                 case '2':
                                     {
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 1:\n");
-                                        BigInteger.TryParse(Console.ReadLine(), out n1);
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 2:\n");
-                                        BigInteger.TryParse(Console.ReadLine(), out n2);
-                                        Console.Clear();
-                                        C();
-                                        ans = n1 - n2;
-                                        Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
-                                        ans = 0;
-                                        n1 = 0;
-                                        n2 = 0;
-                                        Console.ReadKey();
+                                        try
+                                        {
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 1:\n");
+                                            BigInteger.TryParse(Console.ReadLine(), out n1);
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 2:\n");
+                                            BigInteger.TryParse(Console.ReadLine(), out n2);
+                                            Console.Clear();
+                                            C();
+                                            ans = n1 - n2;
+                                            Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
+                                            ans = 0;
+                                            n1 = 0;
+                                            n2 = 0;
+                                            Console.ReadKey();
+                                        }
+                                        catch (Exception) { }
                                         break;
                                     }
                                 case '3':
                                     {
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 1:\n");
-                                        BigInteger.TryParse(Console.ReadLine(), out n1);
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 2:\n");
-                                        BigInteger.TryParse(Console.ReadLine(), out n2);
-                                        Console.Clear();
-                                        C();
-                                        ans = n1 * n2;
-                                        Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
-                                        ans = 0;
-                                        n1 = 0;
-                                        n2 = 0;
-                                        Console.ReadKey();
+                                        try
+                                        {
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 1:\n");
+                                            BigInteger.TryParse(Console.ReadLine(), out n1);
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 2:\n");
+                                            BigInteger.TryParse(Console.ReadLine(), out n2);
+                                            Console.Clear();
+                                            C();
+                                            ans = n1 * n2;
+                                            Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
+                                            ans = 0;
+                                            n1 = 0;
+                                            n2 = 0;
+                                            Console.ReadKey();
+                                        }
+                                        catch (Exception) { }
                                         break;
                                     }
                                 case '4':
                                     {
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 1:\n");
-                                        BigInteger.TryParse(Console.ReadLine(), out n1);
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 2:\n");
-                                        BigInteger.TryParse(Console.ReadLine(), out n2);
-                                        Console.Clear();
-                                        C();
-                                        ans = n1 / n2;
-                                        Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
-                                        ans = 0;
-                                        n1 = 0;
-                                        n2 = 0;
-                                        Console.ReadKey();
+                                        try
+                                        {
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 1:\n");
+                                            BigInteger.TryParse(Console.ReadLine(), out n1);
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 2:\n");
+                                            BigInteger.TryParse(Console.ReadLine(), out n2);
+                                            Console.Clear();
+                                            C();
+                                            ans = n1 / n2;
+                                            Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
+                                            ans = 0;
+                                            n1 = 0;
+                                            n2 = 0;
+                                            Console.ReadKey();
+                                        }
+                                        catch (Exception) { }
                                         break;
                                     }
                                 case '5':
                                     {
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 1:\n");
-                                        BigInteger.TryParse(Console.ReadLine(), out n1);
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 2:\n");
-                                        BigInteger.TryParse(Console.ReadLine(), out n2);
-                                        Console.Clear();
-                                        C();
-                                        ans = n1 % n2;
-                                        Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
-                                        ans = 0;
-                                        n1 = 0;
-                                        n2 = 0;
-                                        Console.ReadKey();
+                                        try
+                                        {
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 1:\n");
+                                            BigInteger.TryParse(Console.ReadLine(), out n1);
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 2:\n");
+                                            BigInteger.TryParse(Console.ReadLine(), out n2);
+                                            Console.Clear();
+                                            C();
+                                            ans = n1 % n2;
+                                            Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
+                                            ans = 0;
+                                            n1 = 0;
+                                            n2 = 0;
+                                            Console.ReadKey();
+                                        }
+                                        catch (Exception) { }
                                         break;
                                     }
                                 case '6':
                                     {
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 1:\n");
-                                        BigInteger.TryParse(Console.ReadLine(), out n1);
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 2:\n");
-                                        BigInteger.TryParse(Console.ReadLine(), out n2);
-                                        Console.Clear();
-                                        C();
-                                        ans = n1;
-                                        for (BigInteger i = 0; i < n2 - 1; i++)
+                                        try
                                         {
-                                            ans *= n1;
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 1:\n");
+                                            BigInteger.TryParse(Console.ReadLine(), out n1);
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 2:\n");
+                                            BigInteger.TryParse(Console.ReadLine(), out n2);
+                                            Console.Clear();
+                                            C();
+                                            ans = n1;
+                                            for (BigInteger i = 0; i < n2 - 1; i++)
+                                            {
+                                                ans *= n1;
+                                            }
+                                            Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
+                                            ans = 0;
+                                            n1 = 0;
+                                            n2 = 0;
+                                            Console.ReadKey();
                                         }
-                                        Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
-                                        ans = 0;
-                                        n1 = 0;
-                                        n2 = 0;
-                                        Console.ReadKey();
+                                        catch (Exception) { }
                                         break;
                                     }
                             }
@@ -169,126 +193,150 @@ namespace ECalc
                             {
                                 case '1':
                                     {
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 1:\n");
-                                        Decimal.TryParse(Console.ReadLine(), out d1);
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 2:\n");
-                                        Decimal.TryParse(Console.ReadLine(), out d2);
-                                        Console.Clear();
-                                        C();
-                                        ads = d1 + d2;
-                                        Console.WriteLine("Answer is:" + ads + "\nPress Any Key To Continue");
-                                        ads = 0;
-                                        d1 = 0;
-                                        d2 = 0;
-                                        Console.ReadKey();
+                                        try
+                                        {
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 1:\n");
+                                            Decimal.TryParse(Console.ReadLine().Replace('.', ','), out d1);
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 2:\n");
+                                            Decimal.TryParse(Console.ReadLine().Replace('.', ','), out d2);
+                                            Console.Clear();
+                                            C();
+                                            ads = d1 + d2;
+                                            Console.WriteLine(("Answer is:" + ads + "\nPress Any Key To Continue").Replace(',', '.'));
+                                            ads = 0;
+                                            d1 = 0;
+                                            d2 = 0;
+                                            Console.ReadKey();
+                                        }
+                                        catch (Exception) { }
                                         break;
                                     }
                                 case '2':
                                     {
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 1:\n");
-                                        Decimal.TryParse(Console.ReadLine(), out d1);
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 2:\n");
-                                        Decimal.TryParse(Console.ReadLine(), out d2);
-                                        Console.Clear();
-                                        C();
-                                        ads = d1 - d2;
-                                        Console.WriteLine("Answer is:" + ads + "\nPress Any Key To Continue");
-                                        ads = 0;
-                                        d1 = 0;
-                                        d2 = 0;
-                                        Console.ReadKey();
+                                        try
+                                        {
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 1:\n");
+                                            Decimal.TryParse(Console.ReadLine().Replace('.', ','), out d1);
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 2:\n");
+                                            Decimal.TryParse(Console.ReadLine().Replace('.', ','), out d2);
+                                            Console.Clear();
+                                            C();
+                                            ads = d1 - d2;
+                                            Console.WriteLine(("Answer is:" + ads + "\nPress Any Key To Continue").Replace(',', '.'));
+                                            ads = 0;
+                                            d1 = 0;
+                                            d2 = 0;
+                                            Console.ReadKey();
+                                        }
+                                        catch (Exception) { }
                                         break;
                                     }
                                 case '3':
                                     {
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 1:\n");
-                                        Decimal.TryParse(Console.ReadLine(), out d1);
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 2:\n");
-                                        Decimal.TryParse(Console.ReadLine(), out d2);
-                                        Console.Clear();
-                                        C();
-                                        ads = d1 * d2;
-                                        Console.WriteLine("Answer is:" + ads + "\nPress Any Key To Continue");
-                                        ads = 0;
-                                        d1 = 0;
-                                        d2 = 0;
-                                        Console.ReadKey();
+                                        try
+                                        {
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 1:\n");
+                                            Decimal.TryParse(Console.ReadLine().Replace('.', ','), out d1);
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 2:\n");
+                                            Decimal.TryParse(Console.ReadLine().Replace('.', ','), out d2);
+                                            Console.Clear();
+                                            C();
+                                            ads = d1 * d2;
+                                            Console.WriteLine(("Answer is:" + ads + "\nPress Any Key To Continue").Replace(',', '.'));
+                                            ads = 0;
+                                            d1 = 0;
+                                            d2 = 0;
+                                            Console.ReadKey();
+                                        }
+                                        catch(Exception) { }
                                         break;
                                     }
                                 case '4':
                                     {
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 1:\n");
-                                        Decimal.TryParse(Console.ReadLine(), out d1);
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 2:\n");
-                                        Decimal.TryParse(Console.ReadLine(), out d2);
-                                        Console.Clear();
-                                        C();
-                                        ans = n1 / n2;
-                                        Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
-                                        ans = 0;
-                                        n1 = 0;
-                                        n2 = 0;
-                                        Console.ReadKey();
+                                        try
+                                        {
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 1:\n");
+                                            Decimal.TryParse(Console.ReadLine().Replace('.', ','), out d1);
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 2:\n");
+                                            Decimal.TryParse(Console.ReadLine().Replace('.', ','), out d2);
+                                            Console.Clear();
+                                            C();
+                                            ans = n1 / n2;
+                                            Console.WriteLine(("Answer is:" + ads + "\nPress Any Key To Continue").Replace(',', '.'));
+                                            ans = 0;
+                                            n1 = 0;
+                                            n2 = 0;
+                                            Console.ReadKey();
+                                        }
+                                        catch (Exception) { }
                                         break;
                                     }
                                 case '5':
                                     {
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 1:\n");
-                                        Decimal.TryParse(Console.ReadLine(), out d1);
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 2:\n");
-                                        Decimal.TryParse(Console.ReadLine(), out d2);
-                                        Console.Clear();
-                                        C();
-                                        ans = n1 % n2;
-                                        Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
-                                        ans = 0;
-                                        n1 = 0;
-                                        n2 = 0;
-                                        Console.ReadKey();
+                                        try
+                                        {
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 1:\n");
+                                            Decimal.TryParse(Console.ReadLine().Replace('.', ','), out d1);
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 2:\n");
+                                            Decimal.TryParse(Console.ReadLine().Replace('.', ','), out d2);
+                                            Console.Clear();
+                                            C();
+                                            ans = n1 % n2;
+                                            Console.WriteLine(("Answer is:" + ads + "\nPress Any Key To Continue").Replace(',', '.'));
+                                            ans = 0;
+                                            n1 = 0;
+                                            n2 = 0;
+                                            Console.ReadKey();
+                                        }
+                                        catch (Exception) { }
                                         break;
                                     }
                                 case '6':
                                     {
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 1:\n");
-                                        Decimal.TryParse(Console.ReadLine(), out d1);
-                                        Console.Clear();
-                                        C();
-                                        Console.WriteLine("Number 2:\n");
-                                        Decimal.TryParse(Console.ReadLine(), out d2);
-                                        Console.Clear();
-                                        C();
-                                        ads = d1;
-                                        for (Decimal i = 0; i < d2 - 1; i++)
+                                        try
                                         {
-                                            ads *= d1;
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 1:\n");
+                                            Decimal.TryParse(Console.ReadLine().Replace('.', ','), out d1);
+                                            Console.Clear();
+                                            C();
+                                            Console.WriteLine("Number 2:\n");
+                                            Decimal.TryParse(Console.ReadLine().Replace('.', ','), out d2);
+                                            Console.Clear();
+                                            C();
+                                            ads = d1;
+                                            for (Decimal i = 0; i < d2 - 1; i++)
+                                            {
+                                                ads *= d1;
+                                            }
+                                            Console.WriteLine(("Answer is:" + ads + "\nPress Any Key To Continue").Replace(',', '.'));
+                                            ads = 0;
+                                            d1 = 0;
+                                            d2 = 0;
+                                            Console.ReadKey();
                                         }
-                                        Console.WriteLine("Answer is:" + ads + "\nPress Any Key To Continue");
-                                        ads = 0;
-                                        d1 = 0;
-                                        d2 = 0;
-                                        Console.ReadKey();
+                                        catch (Exception) { }
                                         break;
                                     }
                             }
