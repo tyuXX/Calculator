@@ -12,7 +12,7 @@ namespace ComCalc
     {
         static void Main(string[] args)
         {
-            
+
         }
     }
 }
