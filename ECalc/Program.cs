@@ -26,6 +26,7 @@ namespace ECalc
                 {
                     case '1':
                         {
+                            Console.Clear();
                             C();
                             Console.WriteLine("Number 1:\n");
                             BigInteger.TryParse(Console.ReadLine(),out n1);
@@ -36,14 +37,17 @@ namespace ECalc
                             Console.Clear();
                             C();
                             ans = n1 + n2;
-                            Console.WriteLine("Answer is:" + ans);
+                            Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
                             ans = 0;
                             n1 = 0;
                             n2 = 0;
+                            Console.ReadKey();
+                            Console.Clear();
                             break;
                         }
                     case '2':
                         {
+                            Console.Clear();
                             C();
                             Console.WriteLine("Number 1:\n");
                             BigInteger.TryParse(Console.ReadLine(), out n1);
@@ -54,14 +58,17 @@ namespace ECalc
                             Console.Clear();
                             C();
                             ans = n1 - n2;
-                            Console.WriteLine("Answer is:" + ans);
+                            Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
                             ans = 0;
                             n1 = 0;
                             n2 = 0;
+                            Console.ReadKey();
+                            Console.Clear();
                             break;
                         }
                     case '3':
                         {
+                            Console.Clear();
                             C();
                             Console.WriteLine("Number 1:\n");
                             BigInteger.TryParse(Console.ReadLine(), out n1);
@@ -72,14 +79,17 @@ namespace ECalc
                             Console.Clear();
                             C();
                             ans = n1 * n2;
-                            Console.WriteLine("Answer is:" + ans);
+                            Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
                             ans = 0;
                             n1 = 0;
                             n2 = 0;
+                            Console.ReadKey();
+                            Console.Clear();
                             break;
                         }
                     case '4':
                         {
+                            Console.Clear();
                             C();
                             Console.WriteLine("Number 1:\n");
                             BigInteger.TryParse(Console.ReadLine(), out n1);
@@ -90,14 +100,17 @@ namespace ECalc
                             Console.Clear();
                             C();
                             ans = n1 / n2;
-                            Console.WriteLine("Answer is:" + ans);
+                            Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
                             ans = 0;
                             n1 = 0;
                             n2 = 0;
+                            Console.ReadKey();
+                            Console.Clear();
                             break;
                         }
                     case '5':
                         {
+                            Console.Clear();
                             C();
                             Console.WriteLine("Number 1:\n");
                             BigInteger.TryParse(Console.ReadLine(), out n1);
@@ -108,14 +121,17 @@ namespace ECalc
                             Console.Clear();
                             C();
                             ans = n1 % n2;
-                            Console.WriteLine("Answer is:" + ans);
+                            Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
                             ans = 0;
                             n1 = 0;
                             n2 = 0;
+                            Console.ReadKey();
+                            Console.Clear();
                             break;
                         }
                     case '6':
                         {
+                            Console.Clear();
                             C();
                             Console.WriteLine("Number 1:\n");
                             BigInteger.TryParse(Console.ReadLine(), out n1);
@@ -126,14 +142,16 @@ namespace ECalc
                             Console.Clear();
                             C();
                             ans = n1;
-                            for (BigInteger i = 0; i < n2; i++)
+                            for (BigInteger i = 0; i < n2 - 1; i++)
                             {
-                                ans *= ans;
+                                ans *= n1;
                             }
-                            Console.WriteLine("Answer is:" + ans);
+                            Console.WriteLine("Answer is:" + ans + "\nPress Any Key To Continue");
                             ans = 0;
                             n1 = 0;
                             n2 = 0;
+                            Console.ReadKey();
+                            Console.Clear();
                             break;
                         }
                 }
