@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc", "Calc\Calc.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumFinder", "PrimeNumFinder\PrimeNumFinder.csproj", "{187C45A7-D861-4E67-BD08-8296D8E71E17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComCalc", "ComCalc\ComCalc.csproj", "{8BBAE3C1-DC71-4595-A2CB-283F16F177C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{187C45A7-D861-4E67-BD08-8296D8E71E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{187C45A7-D861-4E67-BD08-8296D8E71E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{187C45A7-D861-4E67-BD08-8296D8E71E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BBAE3C1-DC71-4595-A2CB-283F16F177C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBAE3C1-DC71-4595-A2CB-283F16F177C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBAE3C1-DC71-4595-A2CB-283F16F177C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBAE3C1-DC71-4595-A2CB-283F16F177C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
