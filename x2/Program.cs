@@ -73,7 +73,7 @@ namespace x2
                                 BigInteger t = r.Next(-1000, 1000);
                                 Console.WriteLine("Time: " + time + "\n");
                                 Console.Write("Calculate " + t + " * ");
-                                Console.Write(num + "\n");
+                                Console.Write(num + "\nAnswer:");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
                                 if ((ans == num * t)||(cheat && !(ans == 1234567890)))
@@ -103,7 +103,7 @@ namespace x2
                                 BigInteger t = 2;
                                 Console.WriteLine("Time: " + time + "\n");
                                 Console.Write("Calculate " + t + " * ");
-                                Console.Write(num + "\n");
+                                Console.Write(num + "\nAnswer:");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
                                 if ((ans == num * t)||(cheat && !(ans == 1234567890)))
@@ -133,7 +133,7 @@ namespace x2
                                 BigInteger t = 3;
                                 Console.WriteLine("Time: " + time + "\n");
                                 Console.Write("Calculate " + t + " * ");
-                                Console.Write(num + "\n");
+                                Console.Write(num + "\nAnswer:");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
                                 if ((ans == num * t)||(cheat && !(ans == 1234567890)))
@@ -163,7 +163,7 @@ namespace x2
                                 BigInteger t = 4;
                                 Console.WriteLine("Time: " + time + "\n");
                                 Console.Write("Calculate " + t + " * ");
-                                Console.Write(num + "\n");
+                                Console.Write(num + "\nAnswer:");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
                                 if ((ans == num * t)||(cheat && !(ans == 1234567890)))
@@ -193,7 +193,7 @@ namespace x2
                                 BigInteger t = 5;
                                 Console.WriteLine("Time: " + time + "\n");
                                 Console.Write("Calculate " + t + " * ");
-                                Console.Write(num + "\n");
+                                Console.Write(num + "\nAnswer:");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
                                 if ((ans == num * t)||(cheat && !(ans == 1234567890)))
@@ -223,7 +223,7 @@ namespace x2
                                 BigInteger t = 6;
                                 Console.WriteLine("Time: " + time + "\n");
                                 Console.Write("Calculate " + t + " * ");
-                                Console.Write(num + "\n");
+                                Console.Write(num + "\nAnswer:");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
                                 if ((ans == num * t)||(cheat && !(ans == 1234567890)))
@@ -253,7 +253,7 @@ namespace x2
                                 BigInteger t = 7;
                                 Console.WriteLine("Time: " + time + "\n");
                                 Console.Write("Calculate " + t + " * ");
-                                Console.Write(num + "\n");
+                                Console.Write(num + "\nAnswer:");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
                                 if ((ans == num * t)||(cheat && !(ans == 1234567890)))
@@ -283,7 +283,7 @@ namespace x2
                                 BigInteger t = 8;
                                 Console.WriteLine("Time: " + time + "\n");
                                 Console.Write("Calculate " + t + " * ");
-                                Console.Write(num + "\n");
+                                Console.Write(num + "\nAnswer:");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
                                 if ((ans == num * t)||(cheat && !(ans == 1234567890)))
@@ -313,7 +313,7 @@ namespace x2
                                 BigInteger t = 9;
                                 Console.WriteLine("Time: " + time + "\n");
                                 Console.Write("Calculate " + t + " * ");
-                                Console.Write(num + "\n");
+                                Console.Write(num + "\nAnswer:");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
                                 if ((ans == num * t)||(cheat && !(ans == 1234567890)))
