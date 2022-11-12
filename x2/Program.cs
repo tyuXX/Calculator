@@ -76,7 +76,7 @@ namespace x2
                                 Console.Write(num + "\n");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
-                                if ((ans == num * t)||cheat)
+                                if ((ans == num * t)||(cheat && !(ans == 1234567890)))
                                 {
                                     s++;
                                     num *= t;
@@ -106,7 +106,7 @@ namespace x2
                                 Console.Write(num + "\n");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
-                                if ((ans == num * t)||cheat)
+                                if ((ans == num * t)||(cheat && !(ans == 1234567890)))
                                 {
                                     s++;
                                     num *= t;
@@ -136,7 +136,7 @@ namespace x2
                                 Console.Write(num + "\n");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
-                                if ((ans == num * t)||cheat)
+                                if ((ans == num * t)||(cheat && !(ans == 1234567890)))
                                 {
                                     s++;
                                     num *= t;
@@ -166,7 +166,7 @@ namespace x2
                                 Console.Write(num + "\n");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
-                                if ((ans == num * t)||cheat)
+                                if ((ans == num * t)||(cheat && !(ans == 1234567890)))
                                 {
                                     s++;
                                     num *= t;
@@ -196,7 +196,7 @@ namespace x2
                                 Console.Write(num + "\n");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
-                                if ((ans == num * t)||cheat)
+                                if ((ans == num * t)||(cheat && !(ans == 1234567890)))
                                 {
                                     s++;
                                     num *= t;
@@ -226,7 +226,7 @@ namespace x2
                                 Console.Write(num + "\n");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
-                                if ((ans == num * t)||cheat)
+                                if ((ans == num * t)||(cheat && !(ans == 1234567890)))
                                 {
                                     s++;
                                     num *= t;
@@ -256,7 +256,7 @@ namespace x2
                                 Console.Write(num + "\n");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
-                                if ((ans == num * t)||cheat)
+                                if ((ans == num * t)||(cheat && !(ans == 1234567890)))
                                 {
                                     s++;
                                     num *= t;
@@ -286,7 +286,7 @@ namespace x2
                                 Console.Write(num + "\n");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
-                                if ((ans == num * t)||cheat)
+                                if ((ans == num * t)||(cheat && !(ans == 1234567890)))
                                 {
                                     s++;
                                     num *= t;
@@ -316,7 +316,7 @@ namespace x2
                                 Console.Write(num + "\n");
                                 BigInteger ans = 0;
                                 BigInteger.TryParse(Console.ReadLine(), out ans);
-                                if ((ans == num * t)||cheat)
+                                if ((ans == num * t)||(cheat && !(ans == 1234567890)))
                                 {
                                     s++;
                                     num *= t;
