@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static BetterCalculator.Processer;
+using static BetterCalculator.UserProcs;
 
 namespace BetterCalculator
 {
@@ -11,6 +7,7 @@ namespace BetterCalculator
     {
         internal const decimal version = 1.0M;
         internal static Random rng = new Random();
+        internal static bool fi = true;
         internal static void Splash()
         {
             Console.Clear();
@@ -45,6 +42,7 @@ namespace BetterCalculator
             Console.WriteLine("[4]-Division");
             Console.WriteLine("[5]-Exponent");
             Console.WriteLine("[6]-Sum List");
+            Console.WriteLine("[7]-Fibonacci Index");
             switch (Console.ReadKey().Key)
             {
                 case ConsoleKey.D1:
@@ -63,6 +61,10 @@ namespace BetterCalculator
                     IExponent();
                     break;
                 case ConsoleKey.D6:
+                    ISum();
+                    break;
+                case ConsoleKey.D7:
+                    IFibonacci();
                     break;
                 default:
                     break;
@@ -70,6 +72,14 @@ namespace BetterCalculator
         }
         internal static void Main()
         {
+            if (!fi)
+            {
+                Console.ReadKey();
+            }
+            else
+            {
+                fi = false;
+            }
             Splash();
             MainMenu();
         }

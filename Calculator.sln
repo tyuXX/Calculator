@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32929.386
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{4EF42F05-723E-4134-B87C-66B18F761F1A}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedTest", "SpeedTest\SpeedTest.csproj", "{2F2ACCE0-8CBA-46B4-B3DB-48D3885E8C63}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterCalculator", "BetterCalculator\BetterCalculator.csproj", "{10555E82-A2E2-428B-9CDA-818E4A5446F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{1108A94E-61A6-4445-BC5A-206C925965CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{10555E82-A2E2-428B-9CDA-818E4A5446F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10555E82-A2E2-428B-9CDA-818E4A5446F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10555E82-A2E2-428B-9CDA-818E4A5446F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1108A94E-61A6-4445-BC5A-206C925965CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1108A94E-61A6-4445-BC5A-206C925965CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1108A94E-61A6-4445-BC5A-206C925965CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1108A94E-61A6-4445-BC5A-206C925965CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
