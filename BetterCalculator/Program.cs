@@ -20,12 +20,13 @@ namespace BetterCalculator
             switch (Console.ReadKey().Key)
             {
                 case ConsoleKey.D1:
-                    Integers();
+                    IntegersP1();
                     break;
                 case ConsoleKey.D2:
                     Rationals();
                     break;
                 default:
+                    Main();
                     break;
             }
         }
@@ -33,7 +34,7 @@ namespace BetterCalculator
         {
             Splash();
         }
-        internal static void Integers()
+        internal static void IntegersP1()
         {
             Splash();
             Console.WriteLine("[1]-Addition");
@@ -43,6 +44,9 @@ namespace BetterCalculator
             Console.WriteLine("[5]-Exponent");
             Console.WriteLine("[6]-Sum List");
             Console.WriteLine("[7]-Fibonacci Index");
+            Console.WriteLine("[8]-Highest Common Factor");
+            Console.WriteLine("[9]-Lowest Common Multiple");
+            Console.WriteLine("[0]-Page 2");
             switch (Console.ReadKey().Key)
             {
                 case ConsoleKey.D1:
@@ -66,7 +70,31 @@ namespace BetterCalculator
                 case ConsoleKey.D7:
                     IFibonacci();
                     break;
+                case ConsoleKey.D8:
+                    //IFibonacci();
+                    break;
+                case ConsoleKey.D9:
+                    //IFibonacci();
+                    break;
+                case ConsoleKey.D0:
+                    IntegersP2();
+                    break;
                 default:
+                    Main();
+                    break;
+            }
+        }
+        internal static void IntegersP2()
+        {
+            Splash();
+            Console.WriteLine("[1]-Prime Factorization");
+            switch (Console.ReadKey().Key)
+            {
+                case ConsoleKey.D1:
+                    IPrimeFactorization();
+                    break;
+                default:
+                    Main();
                     break;
             }
         }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
+using BetterCalculator.Structs;
 
 namespace BetterCalculator
 {
@@ -55,6 +56,28 @@ namespace BetterCalculator
                 }
             }
             return _3;
+        }
+        internal static DivisionsIndex PF(BigInteger n)
+        {
+            BigInteger __ = n;
+            DivisionsIndex _ = new DivisionsIndex();
+            _.ReNew();
+            bool cont = true;
+            while(__ > 1)
+            {
+                cont = true;
+                for (BigInteger i = 2; cont && (i < (n/2)+1);i++)
+                {
+                    if(__ % i == 0)
+                    {
+                        _.AddNew(i);
+                        __ /= i;
+                        cont = false;
+                    }
+                }
+            }
+            _.Compress();
+            return _;
         }
     }
 }
