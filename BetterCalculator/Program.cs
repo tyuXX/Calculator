@@ -11,12 +11,12 @@ namespace BetterCalculator
         internal static void Splash()
         {
             Console.Clear();
-            Console.WriteLine($"Better Calculator V{version.ToString().Replace(',','.')} Made By [tyuXX]\n");
+            Console.WriteLine( $"Better Calculator V{version.ToString().Replace( ',', '.' )} Made By [tyuXX]\n" );
         }
         internal static void MainMenu()
         {
-            Console.WriteLine("[1]-Integers");
-            Console.WriteLine("[2]-Rationals");
+            Console.WriteLine( "[1]-Integers" );
+            Console.WriteLine( "[2]-Rationals" );
             switch (Console.ReadKey().Key)
             {
                 case ConsoleKey.D1:
@@ -37,16 +37,16 @@ namespace BetterCalculator
         internal static void IntegersP1()
         {
             Splash();
-            Console.WriteLine("[1]-Addition");
-            Console.WriteLine("[2]-Subtraction");
-            Console.WriteLine("[3]-Multipilication");
-            Console.WriteLine("[4]-Division");
-            Console.WriteLine("[5]-Exponent");
-            Console.WriteLine("[6]-Sum List");
-            Console.WriteLine("[7]-Fibonacci Index");
-            Console.WriteLine("[8]-Highest Common Factor");
-            Console.WriteLine("[9]-Lowest Common Multiple");
-            Console.WriteLine("[0]-Page 2");
+            Console.WriteLine( "[1]-Addition" );
+            Console.WriteLine( "[2]-Subtraction" );
+            Console.WriteLine( "[3]-Multipilication" );
+            Console.WriteLine( "[4]-Division" );
+            Console.WriteLine( "[5]-Exponent" );
+            Console.WriteLine( "[6]-Sum List" );
+            Console.WriteLine( "[7]-Fibonacci Index" );
+            Console.WriteLine( "[8]-Matrix Multipilication" );
+            Console.WriteLine( "[9]-NULL" );
+            Console.WriteLine( "[0]-Page 2" );
             switch (Console.ReadKey().Key)
             {
                 case ConsoleKey.D1:
@@ -71,10 +71,10 @@ namespace BetterCalculator
                     IFibonacci();
                     break;
                 case ConsoleKey.D8:
-                    //IFibonacci();
+                    IMatrixMultipilication();
                     break;
                 case ConsoleKey.D9:
-                    //IFibonacci();
+
                     break;
                 case ConsoleKey.D0:
                     IntegersP2();
@@ -87,11 +87,19 @@ namespace BetterCalculator
         internal static void IntegersP2()
         {
             Splash();
-            Console.WriteLine("[1]-Prime Factorization");
+            Console.WriteLine( "[1]-Prime Factorization" );
+            Console.WriteLine( "[2]-Highest Common Divider" );
+            Console.WriteLine( "[3]-Lowest Common Multiple" );
             switch (Console.ReadKey().Key)
             {
                 case ConsoleKey.D1:
                     IPrimeFactorization();
+                    break;
+                case ConsoleKey.D2:
+                    IHighestCommonDivider();
+                    break;
+                case ConsoleKey.D3:
+                    ILowestCommonMultiple();
                     break;
                 default:
                     Main();
